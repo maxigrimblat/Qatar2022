@@ -1,0 +1,21 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+body {
+  margin: 0;
+  background-color: #4e0563; }
+
+h1 {
+  color: #ff4700;
+  font-family: fuenteqatar;
+  font-size: 90px; }
+
+h2 {
+  color: #ff4700;
+  font-family: fuenteqatar;
+  font-size: 190px; }
+
+p {
+  color: white;
+  margin-top: 20px; }

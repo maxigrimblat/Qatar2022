@@ -1,0 +1,35 @@
+$color-primario:#4e0563;
+$color-secundario:#ff4700;
+
+@import 'variables';
+@import '../scss/menu';
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  
+  body {
+    margin: 0;
+    background-color: $color-primario;
+  }
+  
+
+h1{
+    color: $color-secundario;
+    font-family: fuenteqatar;
+    font-size: 90px;
+}
+ 
+h2 {
+    color:  $color-secundario;
+    font-family: fuenteqatar;
+    font-size: 190px
+}
+
+p{    
+        color: white;
+        margin-top: 20px;
+}

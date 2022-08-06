@@ -1,0 +1,621 @@
+/* aca van todas las fuentes */
+@font-face {
+  font-family: fuenteqatar;
+  src: url(../Fuente/Qatar2022Arabic-Heavy.ttf);
+}
+
+
+/* inicio menu */
+.menu {
+  font-family: fuenteqatar;
+  position: fixed;
+  transition: 0.4s all;
+  z-index: 6;
+}
+.menu .logomenu {
+  max-width: 70px;
+  margin-left: -10px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.menu .logomenu:hover {
+  max-width: 150px;
+  transition: 1s;
+}
+.menu #logomenu:checked ~ .menu li {
+  visibility: hidden;
+}
+.menu #logomenu:checked ~ .menu li {
+  visibility: hidden;
+}
+.menu li {
+  transition: 0.3s all;
+  font-family: fuenteqatar;
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+  list-style: none;
+  transition: 0.3s all;
+  font-size: 0px;
+  padding: 0px;
+}
+
+/* inicio menu hover */
+.menu:hover {
+  height: 100%;
+  width: 200px;
+  background-color: #4e0563;
+}
+
+.menu:hover a {
+  font-size: 25px;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+
+.menu:hover li {
+  border-top: 1px solid #4e0563;
+  width: 100px;
+}
+
+@media screen and (max-width: 750px) {
+  .menu:hover {
+    height: 100%;
+    width: 200px;
+  }
+}
+/* inicio menu */
+/* Entradas */
+.card {
+  background-color: #ff4700;
+}
+.card #botones {
+  color: azure;
+  background-color: #4e0563;
+  margin-left: 50px;
+}/*# sourceMappingURL=estilos.css.map */
+
+
+
+/* VIDEO PRINCIPAL */
+
+
+#videofondo {
+  min-height: 100vh;
+}
+
+video {
+  margin-top: -180px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 100vh;
+}
+
+/* FIN  VIDEO PRINCIPAL */
+
+/* TITULO PRINCIPAL */
+
+.tituloprincipal h1{
+  padding-top: 70px;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 180px;
+  color: white;
+  font-size: 60px;
+  font-family: fuenteqatar;   
+}
+.tituloprincipal {
+  
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+@media screen and (max-width: 750px) {
+  .tituloprincipal h1{
+      font-size: 40px;
+      margin-left: 40px;
+      margin-right: 10px;
+      margin-top: 100px;
+  }
+} 
+
+@media screen and (max-width: 350px) {
+  .tituloprincipal h1{
+      font-size: 30px;
+      margin-left: 30px;
+      margin-right: 10px;
+      margin-top: 100px;
+  }
+} 
+
+/* TITULO PRINCIPAL */ 
+
+/* Logos */
+
+.qatarlogo {
+  width: 30%;
+  position: relative;
+  left: 70px;
+  top: 100px;
+  min-width: 250px;   
+}
+@media screen and (max-width: 350px) {
+  .qatarlogo{
+      left: 20px;     
+  }
+} 
+
+/* fin Logos */
+
+/*  Inicio Conteo */
+
+.coming-h1{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+
+.coming-soon {
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #FA4E2A;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 30px;
+}
+
+.waiting {
+  height: 50vh;
+}
+
+#autoplay2 {
+  width: 100%;
+  height: 100%;
+}
+
+.conteo-contenedor {
+  z-index: 4;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: -250px;
+  font-family: fuenteqatar;
+  color: white;
+  margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 750px) {
+  .conteo-contenedor h2  {
+      text-align: center;
+      font-size: 20px;
+      margin-top: -20px;
+  }
+} 
+
+
+@media screen and (max-width: 750px) {
+.conteo-contenedor {
+  margin-top: -300px;
+  margin-left: 5px;
+}
+}
+
+/* Fin Conteo */
+
+/* Entradas */
+
+#mascota-entrada {
+  margin-bottom: 20px;
+  height: 200px;
+  
+}
+@media screen and (max-width: 750px) {
+  #mascota-entrada {
+      margin-top: 10px;
+      margin-left: 100px;
+      height: 180px;
+  }
+}
+#texto-entradas {
+  margin-top: 50px;
+  margin-left: -150px;
+}
+@media screen and (max-width: 1000px) {
+  #texto-entradas  {
+  font-size: 50px;
+}
+}
+@media screen and (max-width: 750px) {
+  #texto-entradas  {
+  font-size: 50px;
+  margin-top: 190px;
+}
+}
+
+/* Entradas */
+
+/* Estadios en index */
+
+#estadio-titulos{
+  margin-top: 50px;
+  margin-left: 150px;
+}
+@media screen and (max-width: 750px) {
+  #estadio-titulos {
+      font-size: 50px;
+      margin-left: 50px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #estadio-titulos  {
+  font-size: 50px;
+}
+}
+
+
+#mascota-estadios {
+  margin-bottom: 20px;
+  height: 200px;
+  
+}
+@media screen and (max-width: 750px) {
+  #mascota-estadios {
+      margin-top: 120px;
+      margin-left: -160px;
+      width: 190px;
+      height: 150px;
+  }
+}
+
+#foto-estadio {
+  width: 100%;
+}
+
+#tarjetas-estadios {
+  background-color: transparent;
+  border-color: transparent;
+  margin-top: 20px;
+}
+
+#tarjetas-estadios2 {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+
+/* fin Estadios en index */
+
+/* Mascota en index */
+
+#mascotitaindex1{
+  height: 300px;
+  margin-left: 50px;
+}
+@media screen and (max-width: 1000px) {
+  #mascotitaindex1  {
+  margin-left: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #mascotitaindex1  {
+  margin-left: 50px;
+  height: 200px;
+  }
+}
+#mascotitaindex2{
+  height: 300px;
+  width: 400px;
+}
+@media screen and (max-width: 1000px) {
+  #mascotitaindex2  {
+  margin-left: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #mascotitaindex2  {
+  margin-left: 50px;
+  height: 150px;
+  width: 250px;
+  }
+}
+
+.laeeb{
+  color: white;
+  text-align: center;
+  font-family: fuenteqatar;
+  font-size: 40px; 
+}
+
+.botonmascota{
+  color: #ff4700;
+  font-family: fuenteqatar;
+  font-size: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botonmascota:hover{
+  font-family: fuenteqatar;
+  font-size: 40px;
+  text-decoration: none;
+  transition: 1.2s;
+}
+/* Fin Mascota en index */
+/* medias mascota index */
+
+@media screen and (max-width: 750px) {
+  .botonmascota{
+      font-size: 20px;
+  }
+} 
+
+@media screen and (max-width: 750px) {
+  .laeeb{
+      font-size: 30px;
+  }
+} 
+@media screen and (max-width: 750px) {
+  .row h2{
+      font-size: 50px;
+  }
+} 
+/* medias mascota index */
+
+
+/* PAGINA ENTRADAS */
+
+.entradash1 {
+  font-family: fuenteqatar;
+  color: #ff4700;
+  font-size: 90px; 
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 750px) {
+  .entradash1{
+      margin-left: 45px;
+      margin-right: 10px;
+      font-size: 20px;
+  }
+} 
+#entradasfechas{
+  font-family: fuenteqatar;
+  color: white;
+  font-size: 40px; 
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  #entradasfechas{
+      font-size: 20px;
+      text-align: center;
+  }
+} 
+#infoentradas {
+  color: #ff4700;
+}
+
+/* section Estadios en Estadios */
+
+.estadiofechas{
+  font-family: fuenteqatar;
+  color: white;
+  font-size: 40px; 
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .estadiofechas{
+      font-size: 20px;
+      text-align: center;
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+} 
+
+/* section Estadios en Estadios */
+
+/* FOOTER */
+
+.footer {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.footer-cotenido {
+  color: white;
+  font-family: fuenteqatar;
+  text-align: center; 
+}
+
+/* FOOTER */
+
+*.card {
+  margin: 5px;
+}
+
+#mascotah1 {
+  color: #ff4700;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  #mascota-titulo{
+      font-size: 40px;
+      text-align: center;
+  }
+} 
+
+
+/*  section fixture */
+
+.fixture__contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+}
+.fixture__img  img {
+  height: 1900px;
+  display: flex;
+
+}
+.fixture_titulos h1 {
+  color: #fff;
+  font-size: 30px;
+  font-family: fuenteqatar;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  width: 60%;
+  margin-left: 20%;
+}
+.fixture_titulos h2 {
+  color: #FA4E2A;
+  font-size: 20px;
+  font-family: fuenteqatar;
+  display: block;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+}
+
+pre {
+  margin-top: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Selecciones__titulo */
+
+.selecciones__titulos h1 {
+  color: #fff;
+  font-family: fuenteqatar;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 45px;
+  display: block;
+}
+.selecciones__titulos h3 {
+  color: #FA4E2A;
+  font-family: fuenteqatar;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.selecciones__p  {
+  color: #fff;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 50px;
+  width: auto;
+}
+.selecciones__pre {
+  text-align: center;
+}
+
+#selecciones-importante {
+  color: #FA4E2A;
+}
+/*  Fin Selecciones__titulo */
+
+/*  Fixture__Pagina*/
+
+
+@media screen and (max-width: 750px) {
+  #fixture_titulos h1 {
+      font-size: 20px;
+      text-align: center;
+  }
+} 
+@media screen and (max-width: 750px) {
+  #fixture_titulos h2 {
+      font-size: 15px;
+      text-align: center;
+  }
+} 
+
+/*  Fixture__Pagina */
+
+/*  Selecciones__Pagina */
+
+
+@media screen and (max-width: 750px) {
+  #selecciones-titulos h1 {
+      font-size: 25px;
+      text-align: center;
+  }
+} 
+@media screen and (max-width: 750px) {
+  #selecciones-titulos h3 {
+      font-size: 25px;
+      text-align: center;
+  }
+} 
+
+/*  Selecciones__Pagina */
+
+
+/*  Pagina Mascota */
+
+.mascota__titulo {
+  margin-left: 50px;
+  font-family: fuenteqatar;
+}
+
+
+/*  Pagina Mascota */
+
+
+
+/*  Novedades */
+#texto-novedades {
+      font-family: fuenteqatar;
+      color: white;
+      font-size: 90px;
+      margin-top: 50px;
+}
+
+@media screen and (max-width: 750px) {
+  #texto-novedades {
+      font-size: 40px;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+  }
+} 
+
+#news {
+  height: 20px;
+  
+}
+/*  Novedades */
+
+
+
