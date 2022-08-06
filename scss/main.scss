@@ -2,8 +2,6 @@ $color-primario:#4e0563;
 $color-secundario:#ff4700;
 
 @import 'variables';
-@import '../scss/menu';
-
 
 * {
     margin: 0%;
@@ -26,10 +24,14 @@ h1{
 h2 {
     color:  $color-secundario;
     font-family: fuenteqatar;
-    font-size: 190px
+    font-size: 90px
 }
 
 p{    
         color: white;
         margin-top: 20px;
+}
+
+b{
+  color: #ff4700;
 }

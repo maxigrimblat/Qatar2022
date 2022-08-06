@@ -14,8 +14,11 @@ h1 {
 h2 {
   color: #ff4700;
   font-family: fuenteqatar;
-  font-size: 190px; }
+  font-size: 90px; }
 
 p {
   color: white;
   margin-top: 20px; }
+
+b {
+  color: #ff4700; }
