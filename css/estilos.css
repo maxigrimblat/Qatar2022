@@ -67,16 +67,6 @@
   }
 }
 /* inicio menu */
-/* Entradas */
-.card {
-  background-color: #ff4700;
-}
-.card #botones {
-  color: azure;
-  background-color: #4e0563;
-  margin-left: 50px;
-}/*# sourceMappingURL=estilos.css.map */
-
 
 
 /* VIDEO PRINCIPAL */
@@ -449,9 +439,6 @@ video {
 
 /* FOOTER */
 
-*.card {
-  margin: 5px;
-}
 
 #mascotah1 {
   color: #ff4700;
