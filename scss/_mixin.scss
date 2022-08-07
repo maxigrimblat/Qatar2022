@@ -1,0 +1,9 @@
+@mixin tarjetas-estilo {
+    color: $color-terciario;
+    background-color: $color-primario;
+}
+
+#botones {
+    @include tarjetas-estilo();
+    margin-left: 50px;
+                } 

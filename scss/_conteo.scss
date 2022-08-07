@@ -1,0 +1,38 @@
+.conteo-contenedor {
+    z-index: 4;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: -250px;
+    font-family: fuenteqatar;
+    color: white;
+    margin-bottom: 50px;
+
+        .coming-h1{
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 3rem;
+                    }
+        .coming-soon {
+            min-height: 40vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            }
+        .countdown {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            .day,
+            .hour,
+            .minute,
+            .second {
+            font-size: 30px;
+                            }
+            }
+        .waiting {
+            height: 50vh;
+                        }
+            
+}

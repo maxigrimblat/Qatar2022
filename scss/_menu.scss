@@ -1,0 +1,33 @@
+.menu {
+    font-family: fuenteqatar;
+    position: fixed;
+    transition: 0.4s all;
+    z-index: 6;
+        &:hover {
+        height: 100%;
+        width: 200px;
+        background-color: #4e0563;
+                }
+            .logomenu {
+            max-width: 70px;
+            margin-left: -10px;
+            padding-top: 30px;
+            padding-left: 10px;
+            }
+            .logomenu:hover {
+            max-width: 150px;
+            transition: 1s;
+                    }
+            li {
+                transition: 0.3s all;
+                font-family: fuenteqatar;
+                list-style: none;   
+                a {
+                    text-decoration: none;
+                    list-style: none;
+                    transition: 0.3s all;
+                    font-size: 0px;
+                    padding: 0px;                
+                }
+            }
+        }     

@@ -1,0 +1,17 @@
+$headings:(
+    h1:80px,
+    h2:50px,
+    h3:30px,
+    h4:40px,
+    h5:30px,
+);
+
+$h1: map-get($headings, h1 );
+
+h1 {
+    font-size: $h1;
+}
+
+.h2{
+    font-size: $h2;
+}

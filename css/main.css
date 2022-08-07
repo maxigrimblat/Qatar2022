@@ -1,23 +1,7 @@
-* {
-  margin: 0%;
-  padding: 0%;
-}
-
-body {
-  margin: 0;
-  background-color: #4e0563;
-}
-
-h1 {
+h1, h2 {
   color: #ff4700;
   font-family: fuenteqatar;
-  font-size: 90px;
-}
-
-h2 {
-  color: #ff4700;
-  font-family: fuenteqatar;
-  font-size: 90px;
+  font-size: 80px;
 }
 
 p {
@@ -32,16 +16,104 @@ b {
   background-color: #ff4700;
   margin: 2px;
 }
-.card #botones {
-  color: azure;
-  background-color: #4e0563;
-  margin-left: 50px;
-}
 .card h5 {
   color: black;
   font-family: fuenteqatar;
   text-align: center;
   margin-top: 6px;
+}
+
+.menu {
+  font-family: fuenteqatar;
+  position: fixed;
+  transition: 0.4s all;
+  z-index: 6;
+}
+.menu:hover {
+  height: 100%;
+  width: 200px;
+  background-color: #4e0563;
+}
+.menu .logomenu {
+  max-width: 70px;
+  margin-left: -10px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.menu .logomenu:hover {
+  max-width: 150px;
+  transition: 1s;
+}
+.menu li {
+  transition: 0.3s all;
+  font-family: fuenteqatar;
+  list-style: none;
+}
+.menu li a {
+  text-decoration: none;
+  list-style: none;
+  transition: 0.3s all;
+  font-size: 0px;
+  padding: 0px;
+}
+
+.conteo-contenedor {
+  z-index: 4;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: -250px;
+  font-family: fuenteqatar;
+  color: white;
+  margin-bottom: 50px;
+}
+.conteo-contenedor .coming-h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+.conteo-contenedor .coming-soon {
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.conteo-contenedor .countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.conteo-contenedor .countdown .day,
+.conteo-contenedor .countdown .hour,
+.conteo-contenedor .countdown .minute,
+.conteo-contenedor .countdown .second {
+  font-size: 30px;
+}
+.conteo-contenedor .waiting {
+  height: 50vh;
+}
+
+#botones {
+  color: white;
+  background-color: #4e0563;
+  margin-left: 50px;
+}
+
+#botones {
+  color: white;
+  background-color: #4e0563;
+  margin-left: 50px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  margin: 0;
+  background-color: #4e0563;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -6,47 +6,13 @@
 
 
 /* inicio menu */
-.menu {
-  font-family: fuenteqatar;
-  position: fixed;
-  transition: 0.4s all;
-  z-index: 6;
-}
-.menu .logomenu {
-  max-width: 70px;
-  margin-left: -10px;
-  padding-top: 30px;
-  padding-left: 10px;
-}
-.menu .logomenu:hover {
-  max-width: 150px;
-  transition: 1s;
-}
+
 .menu #logomenu:checked ~ .menu li {
   visibility: hidden;
-}
-.menu #logomenu:checked ~ .menu li {
-  visibility: hidden;
-}
-.menu li {
-  transition: 0.3s all;
-  font-family: fuenteqatar;
-  list-style: none;
-}
-.menu a {
-  text-decoration: none;
-  list-style: none;
-  transition: 0.3s all;
-  font-size: 0px;
-  padding: 0px;
 }
 
 /* inicio menu hover */
-.menu:hover {
-  height: 100%;
-  width: 200px;
-  background-color: #4e0563;
-}
+
 
 .menu:hover a {
   font-size: 25px;
@@ -66,7 +32,7 @@
     width: 200px;
   }
 }
-/* inicio menu */
+/* Fin menu hover */
 
 
 /* VIDEO PRINCIPAL */
@@ -96,7 +62,7 @@ video {
   margin-top: 180px;
   color: white;
   font-size: 60px;
-  font-family: fuenteqatar;   
+  font-family: fuenteqatar;    
 }
 .tituloprincipal {
   
@@ -142,55 +108,7 @@ video {
 
 /* fin Logos */
 
-/*  Inicio Conteo */
-
-.coming-h1{
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 3rem;
-}
-
-.coming-soon {
-  min-height: 40vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  color: #FA4E2A;
-}
-
-.countdown {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-}
-
-.day,
-.hour,
-.minute,
-.second {
-  font-size: 30px;
-}
-
-.waiting {
-  height: 50vh;
-}
-
-#autoplay2 {
-  width: 100%;
-  height: 100%;
-}
-
-.conteo-contenedor {
-  z-index: 4;
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  margin-top: -250px;
-  font-family: fuenteqatar;
-  color: white;
-  margin-bottom: 50px;
-}
+/*  Conteo Media */
 
 
 @media screen and (max-width: 750px) {
@@ -204,12 +122,11 @@ video {
 
 @media screen and (max-width: 750px) {
 .conteo-contenedor {
-  margin-top: -300px;
   margin-left: 5px;
 }
 }
 
-/* Fin Conteo */
+/* Conteo Media */
 
 /* Entradas */
 
@@ -598,8 +515,6 @@ pre {
   #texto-novedades {
       font-size: 40px;
       display: flex;
-      justify-content: center;
-      text-align: center;
   }
 } 
 
