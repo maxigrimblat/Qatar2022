@@ -126,6 +126,18 @@ video {
 }
 }
 
+@media screen and (max-width: 750px) {
+  .countdown {
+    margin-top: -25px;
+  }
+  }
+  @media screen and (max-width: 350px) {
+    .countdown {
+      margin-top: -45px;
+      font-size: 20px;
+    }
+    }
+
 /* Conteo Media */
 
 /* Entradas */
