@@ -2,33 +2,128 @@ $color-primario:#4e0563;
 $color-secundario:#ff4700;
 $color-terciario:white;
 
-$limit:10;
-$unit:8px;
 
-@function size($value){
-@return $value * $unit;
+// IMPORTANTE//
+
+h3 { 
+    color: $color-terciario;
+    font-family: fuenteqatar;
+    font-size: 40px;
+ }
+
+
+p , b{    
+        color: $color-terciario;
 }
 
+
+
+h4 {
+    font-size: 20px;
+    color: #ff4700;
+    text-align: center;
+    font-family: fuenteqatar;
+}
+
+li {
+    color: $color-terciario;
+}
 
 
 h1, h2{
     color: $color-secundario;
     font-family: fuenteqatar;
-    font-size: size(10)
+    font-size: 80px;
+    text-align: center;
 }
 
-p{    
-        color: $color-terciario;
-}
+// IMPORTANTE//
 
-b{
-    color: $color-secundario;
-}
+// h1 y h2 paginas//
+
+#titulos_paginas {
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  
+  @media screen and (max-width: 750px) {
+    #titulos_paginas{
+        font-size: 20px;
+        margin-left: 50px;
+    }
+  } 
+
+  #texto-paginas{
+    font-size: 20px;
+    color:$color-terciario;
+  }
+  
+  
+  @media screen and (max-width: 750px) {
+    #texto-paginas {
+        font-size: 20px;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+  } 
+
+// Fin h1 y h2 paginas//
 
 
+// TARJETAS //
 
+    .card2 {
 
-.card {
+        margin-left: 50px;
+        
+        h5{
+            color: $color-secundario;
+            text-align: center;
+            font-size: 40px;
+            font-family: fuenteqatar;
+            &:hover {
+                color: white;
+                transition: 1s;
+            }
+        }
+         li{
+            background-color:transparent;
+            border: transparent;
+            text-align: center;
+            font-size: 20px;  
+         }
+         img{
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            margin-left: 50px;
+         }
+    }
+// NOVEDADES //   
+
+    .video-offside {
+        text-align: center;
+        @media screen and (max-width: 750px) {
+            #video-offside{
+               width: 430px;
+               height: 240px;
+            }
+        @media screen and (max-width: 450px) {
+            #video-offside{
+                width: 250px;
+                height: 140px;
+            }
+          }
+        }
+    }
+    .mas_novedades {
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    .card {
         background-color: $color-secundario;
         margin: 2px;
         
@@ -37,5 +132,20 @@ b{
         font-family: fuenteqatar;
         text-align: center;
         margin-top: 6px;
-        }                                
+        }
     }
+
+
+    #caja-centrada {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        #mascotita {
+            height: 200px;
+            }
+        #mascotita2 {
+            height: 50px;
+        }    
+    }
+    

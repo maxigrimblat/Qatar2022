@@ -39,39 +39,39 @@
                 </div>
                 <div class="conteo-contenedor">
                     <div>   
-                        <h3 class="coming-h1">Countdown to Qatar 2022™</h3>
-                        <div class="countdown">
+                        <h4 class="coming-h1">Countdown to Qatar 2022™</h4>
+                        <div class="countdown" id="conteo">
                         <div class="container-day">
-                        <h3 class="day">Time</h3>
-                        <h3>Day</h3>
+                        <h4 class="day" id="texto-conteo">Time</h4>
+                        <h4>Day</h4>
                     </div>
                     <div class="container-hour">
-                        <h3 class="hour">Time</h3>
-                        <h3>hour</h3>
+                        <h4 class="hour" id="texto-conteo">Time</h4>
+                        <h4>hour</h4>
                     </div>
                     <div class="container-minute">
-                        <h3 class="minute">Time</h3>
-                        <h3>minute</h3>
+                        <h4 class="minute"id="texto-conteo">Time</h4>
+                        <h4>minute</h4>
                     </div>
                     <div class="container-second">
-                        <h3 class="second">Time</h3>
-                        <h3>Second</h3>
+                        <h4 class="second">Time</h4>
+                        <h4>Second</h4>
                     </div>
                 </div>
             </main>
         </div>
     </header>    
     <section class="entradas">
-    <div class="container text-center">
-        <div class="row align-items-start">
-            <div class="col-6">
-                <img src="./img/Mascota/mascota1.webp" class="img-fluid rounded-start" alt="mascota" id="mascota-entrada">
+    <div class="container">
+        <div class="row" id="caja-centrada">
+            <div class="col-sm-4">
+                <img src="./img/Mascota/mascota1.webp" class="img-fluid rounded-start" alt="mascota" id="mascotita">
             </div>
-            <div class="col-6 justify-content-center">
-                <h2 class="texto-entradas" id="texto-entradas">Entradas</h2>
+            <div class="col-sm-8">
+                <h2 class="texto-entradas">Entradas</h2>
             </div>
         </div>
-    </div>
+    </div>    
     <div class="container-fluid">
         <div class="row justify-content-center "  id="tarjetas">
             <div class="card" style="width: 18rem;">
@@ -99,20 +99,16 @@
     </div>
     </section>
     <section class="estadios">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="container text-center">
-                <div class="row align-items-start">
-                    <div class="col-6">
-                        <h2 class="texto-estadio" id="estadio-titulos">Estadios</h2>
-                    </div>
-                    <div class="col-6 justify-content-center">
-                        <img src="./img/Mascota/2.webp" alt="mascota" id="mascota-estadios">
-                    </div>
-                </div>
+    <div class="container">
+        <div class="row" id="caja-centrada">
+            <div class="col-sm-6">
+                <img src="./img/Mascota/2.webp" alt="mascota" id="mascotita">
+            </div>
+            <div class="col-sm-6">
+                <h2 class="texto-entradas">Estadios</h2>
             </div>
         </div>
-    </div>
+    </div>     
     <div class="container-fluid">
         <div class="row">
             <div class="col">
@@ -181,30 +177,44 @@
     </div>
     </section>
     <section class="mascotaficial">
+    <div class="container">
+        <div class="row" id="caja-centrada">
+            <div class="col-sm-8">
+                <h2 class="texto-entradas">Mascota Oficial</h2>
+            </div>
+        </div>
+    </div>        
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">
-                <h2>¿Conoces ya la mascota del Mundial de Qatar 2022?</h2>
-            </div>
-            <div class="col-lg-6">
-                <img src="./img/Mascota/mascota1.webp" alt="mascotamundial" id="mascotitaindex1">            
-            </div>
-            <div class="col-lg-6">
-                <img src="./img/Mascota/2.webp" alt="mascotamundial"id="mascotitaindex2">        
+                <div>
+                    <model-viewer id="mascota__mundial" src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/mascota%20mundial.glb?v=1660431628638"
+                    ios-src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/413d03fb-7cb5-4bcb-a8d4-c92d392efaee.usdz?v=1660431640665"
+                    poster="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/mascota1.webp?v=1660432164662"               
+                    shadow-intensity="1"
+                    camera-controls
+                    auto-rotate ar>
+                    </model-viewer>
+                </div>
             </div>
             <div class="col-12 text-center">
-                <h3 class="laeeb">Su nombre es La'eeb</h3>
-                <a class="botonmascota" href="./pages/mascotaoficial.html">Te invito a conocerla</a>
+                <h3 class="laeeb">Te invitamos a sácarte una foto con La'eeb!</h3>
+                <a href="./pages/mascotaoficial.html" id="botonmascota">Más Sobre la mascota oficial </a>
             </div>
     </div>
     </section>
     <section class="novedades">
-        <div class="container-fluid">
-            <div class="Noticias__titulo" id="texto-novedades">
-                <div class="col-12 text-center">
-                    <h2 id="texto-novedades">Novedades</h2>
-                </div>
+    <div class="container">
+        <div class="row" id="caja-centrada">
+            <div class="col-sm-4">
+                <img src="./img/Mascota/mascota1.webp" class="img-fluid rounded-start" alt="mascota" id="mascotita">
             </div>
+            <div class="col-sm-8">
+                <h2 class="texto-entradas">Novedades</h2>
+            </div>
+        </div>
+    </div>       
+        <div class="container-fluid">
             <div class="row justify-content-center "  id="tarjetas">
                 <div class="card" style="width: 18rem;">
                     <img src="./img/Novedades/1.webp" class="card-img-top" alt="noticias1">
@@ -223,7 +233,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 17rem;">
-                    <img src="./img/Novedades/4.webp" class="card-img-top" alt="noticias3">
+                    <img src="./img/Novedades/offisde.webp" style="height: 260px"  class="card-img-top" alt="noticias3">
                     <div class="card-body">
                     <p class="card-text">El fuera de juego semiautomático será oficial en el Mundial de Qatar.El fuera de juego semiautomático llega y todo hace indicar que para quedarse. En 2018 fue el VAR y ahora se quiere dar un paso más para que la justicia reine en el fútbol.</p>
                     <a href="https://www.marca.com/futbol/mundial/2022/07/01/62bdda5d268e3e29348b45cd.html" class="btn btn-success" id="botones">Más Info</a>
@@ -238,15 +248,22 @@
             </div>
         </div>
     </section>
-    <footer class="footer-cotenido">
-        <div>
-            <h3>Qatar 2022</h3>
-            <h4>Todos los derechos reservados</h4>
+    <section class="footer">
+    <footer>
+        <div class="footer-contenido">
+                <h3 id="footer-h3">Qatar 2022</h3>
+                <h4 id="footer-h4">Todos los derechos reservados</h4>
         </div>
     </footer>
+    </section>
+    <section class="scripts">
         <script src="./js/bootstrap.min.js"></script>
         <script src="./js/popper.min.js"></script>
         <script src="https://kit.fontawesome.com/a1e2cb9fee.js" crossorigin="anonymous"></script>
-        <script src="./js/estilos.js"></script>   
+        <script src="./js/estilos.js"></script>
+        <script type="module"
+        src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+        </script> 
+    </section>   
 </body>
 </html>

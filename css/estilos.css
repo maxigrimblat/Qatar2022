@@ -126,6 +126,7 @@ video {
 }
 }
 
+
 @media screen and (max-width: 750px) {
   .countdown {
     margin-top: -25px;
@@ -140,70 +141,8 @@ video {
 
 /* Conteo Media */
 
-/* Entradas */
-
-#mascota-entrada {
-  margin-bottom: 20px;
-  height: 200px;
-  
-}
-@media screen and (max-width: 750px) {
-  #mascota-entrada {
-      margin-top: 10px;
-      margin-left: 100px;
-      height: 180px;
-  }
-}
-#texto-entradas {
-  margin-top: 50px;
-  margin-left: -150px;
-}
-@media screen and (max-width: 1000px) {
-  #texto-entradas  {
-  font-size: 50px;
-}
-}
-@media screen and (max-width: 750px) {
-  #texto-entradas  {
-  font-size: 50px;
-  margin-top: 190px;
-}
-}
-
-/* Entradas */
 
 /* Estadios en index */
-
-#estadio-titulos{
-  margin-top: 50px;
-  margin-left: 150px;
-}
-@media screen and (max-width: 750px) {
-  #estadio-titulos {
-      font-size: 50px;
-      margin-left: 50px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  #estadio-titulos  {
-  font-size: 50px;
-}
-}
-
-
-#mascota-estadios {
-  margin-bottom: 20px;
-  height: 200px;
-  
-}
-@media screen and (max-width: 750px) {
-  #mascota-estadios {
-      margin-top: 120px;
-      margin-left: -160px;
-      width: 190px;
-      height: 150px;
-  }
-}
 
 #foto-estadio {
   width: 100%;
@@ -223,167 +162,83 @@ video {
 
 /* fin Estadios en index */
 
-/* Mascota en index */
 
-#mascotitaindex1{
-  height: 300px;
-  margin-left: 50px;
-}
-@media screen and (max-width: 1000px) {
-  #mascotitaindex1  {
-  margin-left: 150px;
-  }
-}
-@media screen and (max-width: 600px) {
-  #mascotitaindex1  {
-  margin-left: 50px;
-  height: 200px;
-  }
-}
-#mascotitaindex2{
-  height: 300px;
-  width: 400px;
-}
-@media screen and (max-width: 1000px) {
-  #mascotitaindex2  {
-  margin-left: 150px;
-  }
-}
-@media screen and (max-width: 600px) {
-  #mascotitaindex2  {
-  margin-left: 50px;
-  height: 150px;
+/*  Mascota index */
+#mascota__mundial {
   width: 250px;
+  height: 300px;
+  margin-left: 40%;
+}
+@media screen and (max-width: 750px) {
+  #mascota__mundial{
+      margin-left: 15%;
   }
 }
 
-.laeeb{
-  color: white;
-  text-align: center;
-  font-family: fuenteqatar;
-  font-size: 40px; 
-}
 
-.botonmascota{
+#botonmascota{
   color: #ff4700;
   font-family: fuenteqatar;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
 }
 
-.botonmascota:hover{
-  font-family: fuenteqatar;
-  font-size: 40px;
-  text-decoration: none;
-  transition: 1.2s;
-}
 /* Fin Mascota en index */
+
 /* medias mascota index */
 
 @media screen and (max-width: 750px) {
   .botonmascota{
-      font-size: 20px;
+      font-size: 15px;
   }
 } 
 
-@media screen and (max-width: 750px) {
-  .laeeb{
-      font-size: 30px;
-  }
-} 
 @media screen and (max-width: 750px) {
   .row h2{
       font-size: 50px;
   }
 } 
+
+
 /* medias mascota index */
 
-
-/* PAGINA ENTRADAS */
-
-.entradash1 {
-  font-family: fuenteqatar;
-  color: #ff4700;
-  font-size: 60px; 
-  margin-top: 50px;
-}
-
-@media screen and (max-width: 750px) {
-  .entradash1{
-      margin-left: 45px;
-      margin-right: 10px;
-      font-size: 20px;
-  }
-} 
-#entradasfechas{
-  font-family: fuenteqatar;
-  color: white;
-  font-size: 40px; 
-  margin-top: 30px;
-}
-
-@media screen and (max-width: 750px) {
-  #entradasfechas{
-      font-size: 20px;
-      text-align: center;
-  }
-} 
-#infoentradas {
-  color: #ff4700;
-}
-
-/* section Estadios en Estadios */
-
-.estadiofechas{
-  font-family: fuenteqatar;
-  color: white;
-  font-size: 40px; 
-  margin-top: 30px;
-}
-
-@media screen and (max-width: 750px) {
-  .estadiofechas{
-      font-size: 20px;
-      text-align: center;
-      margin-left: 50px;
-      margin-right: 50px;
-  }
-} 
-
-/* section Estadios en Estadios */
-
-/* FOOTER */
-
-.footer {
-  padding: 1em 0;
-  text-align: center;
-}
-
-.footer-cotenido {
-  color: white;
-  font-family: fuenteqatar;
-  text-align: center; 
-}
-
-/* FOOTER */
-
-
-#mascotah1 {
-  color: #ff4700;
-  margin-top: 20px;
-}
-
-@media screen and (max-width: 750px) {
-  #mascota-titulo{
-      font-size: 40px;
-      text-align: center;
-  }
-} 
 
 
 /*  section fixture */
 
+#titulo-fixture {
+  font-size: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  #titulo-fixture{
+      font-size: 20px;
+      margin-left: 55px;
+      margin-right: 15px;
+  }
+} 
+
+
+#titulo-fixture2 {
+  font-size: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  color: white;
+}
+
+@media screen and (max-width: 750px) {
+  #titulo-fixture2{
+      font-size: 12px;
+      margin-left: 55px;
+      margin-right: 15px;
+  }
+}
 .fixture__contenedor{
   display: flex;
   justify-content: center;
@@ -397,144 +252,9 @@ video {
   display: flex;
 
 }
-.fixture_titulos h1 {
-  color: #fff;
-  font-size: 30px;
-  font-family: fuenteqatar;
-  display: block;
-  text-align: center;
-  margin-top: 20px;
-  width: 60%;
-  margin-left: 20%;
-}
-.fixture_titulos h2 {
-  color: #FA4E2A;
-  font-size: 20px;
-  font-family: fuenteqatar;
-  display: block;
-  text-align: center;
-  width: 60%;
-  margin-left: 20%;
-}
-
-pre {
-  margin-top: 30px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 /* Selecciones__titulo */
 
-.selecciones__titulos h1 {
-  color: #fff;
-  font-family: fuenteqatar;
-  text-align: center;
-  margin-top: 20px;
-  font-size: 45px;
-  display: block;
-}
-.selecciones__titulos h3 {
-  color: #FA4E2A;
-  font-family: fuenteqatar;
-  text-align: center;
-  margin-top: 50px;
-  font-size: 40px;
-  display: block;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.selecciones__p  {
-  color: #fff;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin: 50px;
-  width: auto;
-}
-.selecciones__pre {
-  text-align: center;
-}
-
-#selecciones-importante {
-  color: #FA4E2A;
-}
-/*  Fin Selecciones__titulo */
-
-/*  Fixture__Pagina*/
-
-
-@media screen and (max-width: 750px) {
-  #fixture_titulos h1 {
-      font-size: 20px;
-      text-align: center;
-  }
-} 
-@media screen and (max-width: 750px) {
-  #fixture_titulos h2 {
-      font-size: 15px;
-      text-align: center;
-  }
-} 
-
-/*  Fixture__Pagina */
-
-/*  Selecciones__Pagina */
-
-
-@media screen and (max-width: 750px) {
-  #selecciones-titulos h1 {
-      font-size: 25px;
-      text-align: center;
-  }
-} 
-@media screen and (max-width: 750px) {
-  #selecciones-titulos h3 {
-      font-size: 25px;
-      text-align: center;
-  }
-} 
-
-/*  Selecciones__Pagina */
-
-
-/*  Pagina Mascota */
-
-#mascotah1 {
-  margin-left: 50px;
-  font-family: fuenteqatar;
-  font-size: 50px;
-}
-
-@media screen and (max-width: 750px) {
-  #mascotah1 {
-      font-size: 20px;
-  }
-
-
-/*  Pagina Mascota */
-
-
-
-/*  Novedades */
-
-#texto-novedades {
-  display: flex;
-      justify-content: center;
-      text-align: center;
-}
-@media screen and (max-width: 750px) {
-  #texto-novedades {
-      font-size: 40px;
-      display: flex;
-  }
-} 
-
-#news {
-  height: 20px;
-  
-}
-/*  Novedades */
 
 
 

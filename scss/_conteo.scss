@@ -5,14 +5,18 @@
     text-align: center;
     margin-top: -250px;
     font-family: fuenteqatar;
-    color: white;
     margin-bottom: 50px;
+
+        h4 {
+        color: white;
+        }   
 
         .coming-h1{
             font-size: 2rem;
             font-weight: bold;
             padding: 3rem;
                     }
+            
         .coming-soon {
             min-height: 40vh;
             display: flex;

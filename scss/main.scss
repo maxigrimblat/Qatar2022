@@ -20,5 +20,20 @@
     background-color: $color-primario;
   }
   
+  
+  .footer-contenido {
+    font-family: fuenteqatar;
+    text-align: center;
+    padding: 1em 0; 
+
+    #footer-h3{
+      color:$color-secundario;
+    }
+    #footer-h4{
+      color: $color-terciario;
+    }
+  }
+  
+  
 
 

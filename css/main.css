@@ -1,61 +1,129 @@
+h3 {
+  color: white;
+  font-family: fuenteqatar;
+  font-size: 40px; }
+
+p, b {
+  color: white; }
+
+h4 {
+  font-size: 20px;
+  color: #ff4700;
+  text-align: center;
+  font-family: fuenteqatar; }
+
+li {
+  color: white; }
+
 h1, h2 {
   color: #ff4700;
   font-family: fuenteqatar;
   font-size: 80px;
-}
+  text-align: center; }
 
-p {
-  color: white;
-}
+#titulos_paginas {
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 20px;
+  font-size: 50px; }
 
-b {
-  color: #ff4700;
-}
+@media screen and (max-width: 750px) {
+  #titulos_paginas {
+    font-size: 20px;
+    margin-left: 50px; } }
+
+#texto-paginas {
+  font-size: 20px;
+  color: white; }
+
+@media screen and (max-width: 750px) {
+  #texto-paginas {
+    font-size: 20px;
+    margin-left: 45px;
+    margin-right: 45px; } }
+
+.card2 {
+  margin-left: 50px; }
+  .card2 h5 {
+    color: #ff4700;
+    text-align: center;
+    font-size: 40px;
+    font-family: fuenteqatar; }
+    .card2 h5:hover {
+      color: white;
+      transition: 1s; }
+  .card2 li {
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    font-size: 20px; }
+  .card2 img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-left: 50px; }
+
+.video-offside {
+  text-align: center; }
+  @media screen and (max-width: 750px) {
+    .video-offside #video-offside {
+      width: 430px;
+      height: 240px; } }
+
+@media screen and (max-width: 750px) and (max-width: 450px) {
+  .video-offside #video-offside {
+    width: 250px;
+    height: 140px; } }
+
+.mas_novedades {
+  font-size: 40px;
+  margin: 20px; }
 
 .card {
   background-color: #ff4700;
-  margin: 2px;
-}
-.card h5 {
-  color: black;
-  font-family: fuenteqatar;
+  margin: 2px; }
+  .card h5 {
+    color: black;
+    font-family: fuenteqatar;
+    text-align: center;
+    margin-top: 6px; }
+
+#caja-centrada {
   text-align: center;
-  margin-top: 6px;
-}
+  justify-content: center;
+  align-items: center; }
+  #caja-centrada #mascotita {
+    height: 200px; }
+  #caja-centrada #mascotita2 {
+    height: 50px; }
 
 .menu {
   font-family: fuenteqatar;
   position: fixed;
   transition: 0.4s all;
-  z-index: 6;
-}
-.menu:hover {
-  height: 100%;
-  width: 200px;
-  background-color: #4e0563;
-}
-.menu .logomenu {
-  max-width: 70px;
-  margin-left: -10px;
-  padding-top: 30px;
-  padding-left: 10px;
-}
-.menu .logomenu:hover {
-  max-width: 150px;
-  transition: 1s;
-}
-.menu li {
-  transition: 0.3s all;
-  font-family: fuenteqatar;
-  list-style: none;
-}
-.menu li a {
-  text-decoration: none;
-  list-style: none;
-  transition: 0.3s all;
-  font-size: 0px;
-  padding: 0px;
-}
+  z-index: 6; }
+  .menu:hover {
+    height: 100%;
+    width: 200px;
+    background-color: #4e0563; }
+  .menu .logomenu {
+    max-width: 70px;
+    margin-left: -10px;
+    padding-top: 30px;
+    padding-left: 10px; }
+  .menu .logomenu:hover {
+    max-width: 150px;
+    transition: 1s; }
+  .menu li {
+    transition: 0.3s all;
+    font-family: fuenteqatar;
+    list-style: none; }
+    .menu li a {
+      text-decoration: none;
+      list-style: none;
+      transition: 0.3s all;
+      font-size: 0px;
+      padding: 0px; }
 
 .conteo-contenedor {
   z-index: 4;
@@ -64,50 +132,49 @@ b {
   text-align: center;
   margin-top: -250px;
   font-family: fuenteqatar;
-  color: white;
-  margin-bottom: 50px;
-}
-.conteo-contenedor .coming-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 3rem;
-}
-.conteo-contenedor .coming-soon {
-  min-height: 40vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.conteo-contenedor .countdown {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-}
-.conteo-contenedor .countdown .day,
-.conteo-contenedor .countdown .hour,
-.conteo-contenedor .countdown .minute,
-.conteo-contenedor .countdown .second {
-  font-size: 30px;
-}
-.conteo-contenedor .waiting {
-  height: 50vh;
-}
+  margin-bottom: 50px; }
+  .conteo-contenedor h4 {
+    color: white; }
+  .conteo-contenedor .coming-h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 3rem; }
+  .conteo-contenedor .coming-soon {
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; }
+  .conteo-contenedor .countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+    .conteo-contenedor .countdown .day,
+    .conteo-contenedor .countdown .hour,
+    .conteo-contenedor .countdown .minute,
+    .conteo-contenedor .countdown .second {
+      font-size: 30px; }
+  .conteo-contenedor .waiting {
+    height: 50vh; }
 
 #botones {
   color: white;
   background-color: #4e0563;
-  margin-left: 50px;
-}
+  margin-left: 50px; }
 
 * {
   margin: 0%;
-  padding: 0%;
-}
+  padding: 0%; }
 
 body {
   margin: 0;
-  background-color: #4e0563;
-}
+  background-color: #4e0563; }
 
-/*# sourceMappingURL=main.css.map */
+.footer-contenido {
+  font-family: fuenteqatar;
+  text-align: center;
+  padding: 1em 0; }
+  .footer-contenido #footer-h3 {
+    color: #ff4700; }
+  .footer-contenido #footer-h4 {
+    color: white; }
