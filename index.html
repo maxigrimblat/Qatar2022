@@ -187,11 +187,19 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">
-                <img src="./img/Mascota/2.webp" class="img-fluid rounded-start" alt="mascota" width="350px">
+                <div>
+                    <model-viewer id="mascota__mundial" src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/mascota%20mundial.glb?v=1660431628638"
+                    ios-src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/413d03fb-7cb5-4bcb-a8d4-c92d392efaee.usdz?v=1660431640665"
+                    poster="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/mascota1.webp?v=1660432164662"               
+                    shadow-intensity="1"
+                    camera-controls
+                    auto-rotate ar>
+                    </model-viewer>
+                </div>
             </div>
             <div class="col-12 text-center">
-                <h3 class="laeeb">Su nombre es La'eeb</h3>
-                <a class="botonmascota" href="./pages/mascotaoficial.html">Te invito a conocerla</a>
+                <h3 class="laeeb">Te invitamos a sácarte una foto con La'eeb!</h3>
+                <a href="./pages/mascotaoficial.html" id="botonmascota">Más Sobre la mascota oficial </a>
             </div>
     </div>
     </section>
@@ -225,7 +233,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 17rem;">
-                    <img src="./img/Novedades/4.webp" class="card-img-top" alt="noticias3">
+                    <img src="./img/Novedades/offisde.webp" style="height: 260px"  class="card-img-top" alt="noticias3">
                     <div class="card-body">
                     <p class="card-text">El fuera de juego semiautomático será oficial en el Mundial de Qatar.El fuera de juego semiautomático llega y todo hace indicar que para quedarse. En 2018 fue el VAR y ahora se quiere dar un paso más para que la justicia reine en el fútbol.</p>
                     <a href="https://www.marca.com/futbol/mundial/2022/07/01/62bdda5d268e3e29348b45cd.html" class="btn btn-success" id="botones">Más Info</a>
@@ -240,15 +248,22 @@
             </div>
         </div>
     </section>
-    <footer class="footer-cotenido">
-        <div>
-            <h3>Qatar 2022</h3>
-            <h4>Todos los derechos reservados</h4>
+    <section class="footer">
+    <footer>
+        <div class="footer-contenido">
+                <h3 id="footer-h3">Qatar 2022</h3>
+                <h4 id="footer-h4">Todos los derechos reservados</h4>
         </div>
     </footer>
+    </section>
+    <section class="scripts">
         <script src="./js/bootstrap.min.js"></script>
         <script src="./js/popper.min.js"></script>
         <script src="https://kit.fontawesome.com/a1e2cb9fee.js" crossorigin="anonymous"></script>
-        <script src="./js/estilos.js"></script>   
+        <script src="./js/estilos.js"></script>
+        <script type="module"
+        src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+        </script> 
+    </section>   
 </body>
 </html>

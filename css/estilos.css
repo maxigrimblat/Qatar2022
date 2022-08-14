@@ -162,18 +162,32 @@ video {
 
 /* fin Estadios en index */
 
-/* Mascota en index */
+
+/*  Mascota index */
+#mascota__mundial {
+  width: 250px;
+  height: 300px;
+  margin-left: 40%;
+}
+@media screen and (max-width: 750px) {
+  #mascota__mundial{
+      margin-left: 15%;
+  }
+}
 
 
-.botonmascota{
+#botonmascota{
   color: #ff4700;
   font-family: fuenteqatar;
   font-size: 20px;
   text-decoration: none;
   cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 /* Fin Mascota en index */
+
 /* medias mascota index */
 
 @media screen and (max-width: 750px) {
@@ -187,6 +201,7 @@ video {
       font-size: 50px;
   }
 } 
+
 
 /* medias mascota index */
 
@@ -238,56 +253,8 @@ video {
 
 }
 
-
-pre {
-  margin-top: 30px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 /* Selecciones__titulo */
 
-
-.selecciones__p  {
-  color: #fff;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin: 50px;
-  width: auto;
-}
-.selecciones__pre {
-  text-align: center;
-}
-
-#selecciones-importante {
-  color: #FA4E2A;
-}
-/*  Fin Selecciones__titulo */
-
-/*  Fixture__Pagina*/
-
-/*  Fixture__Pagina */
-
-/*  Selecciones__Pagina */
-
-
-
-/*  Selecciones__Pagina */
-
-
-/*  Pagina Mascota */
-
-
-/*  Pagina Mascota */
-
-/*  Novedades */
-
-#news {
-  height: 20px;
-  
-}
-/*  Novedades */
 
 
 

@@ -3,14 +3,43 @@ $color-secundario:#ff4700;
 $color-terciario:white;
 
 
+// IMPORTANTE//
+
+h3 { 
+    color: $color-terciario;
+    font-family: fuenteqatar;
+    font-size: 40px;
+ }
+
+
+p , b{    
+        color: $color-terciario;
+}
+
+
+
+h4 {
+    font-size: 20px;
+    color: #ff4700;
+    text-align: center;
+    font-family: fuenteqatar;
+}
+
+li {
+    color: $color-terciario;
+}
+
 
 h1, h2{
     color: $color-secundario;
     font-family: fuenteqatar;
     font-size: 80px;
+    text-align: center;
 }
 
+// IMPORTANTE//
 
+// h1 y h2 paginas//
 
 #titulos_paginas {
     margin-left: 45px;
@@ -28,7 +57,7 @@ h1, h2{
 
   #texto-paginas{
     font-size: 20px;
-    color: white;
+    color:$color-terciario;
   }
   
   
@@ -40,55 +69,10 @@ h1, h2{
     }
   } 
 
-
- h3 { 
-    color: $color-terciario;
-    font-family: fuenteqatar;
-    font-size: 40px;
- }
+// Fin h1 y h2 paginas//
 
 
-p{    
-        color: $color-terciario;
-}
-
-b{
-    color: $color-secundario;
-}
-
-h4 {
-    font-size: 20px;
-}
-
-li {
-    color: white;
-}
-.card {
-        background-color: $color-secundario;
-        margin: 2px;
-        
-        h5{
-        color: black;
-        font-family: fuenteqatar;
-        text-align: center;
-        margin-top: 6px;
-        }
-    }
-
-
-    #caja-centrada {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-
-        #mascotita {
-            height: 200px;
-            }
-        #mascotita2 {
-            height: 50px;
-        }    
-    }
-    
+// TARJETAS //
 
     .card2 {
 
@@ -117,3 +101,51 @@ li {
             margin-left: 50px;
          }
     }
+// NOVEDADES //   
+
+    .video-offside {
+        text-align: center;
+        @media screen and (max-width: 750px) {
+            #video-offside{
+               width: 430px;
+               height: 240px;
+            }
+        @media screen and (max-width: 450px) {
+            #video-offside{
+                width: 250px;
+                height: 140px;
+            }
+          }
+        }
+    }
+    .mas_novedades {
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    .card {
+        background-color: $color-secundario;
+        margin: 2px;
+        
+        h5{
+        color: black;
+        font-family: fuenteqatar;
+        text-align: center;
+        margin-top: 6px;
+        }
+    }
+
+
+    #caja-centrada {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        #mascotita {
+            height: 200px;
+            }
+        #mascotita2 {
+            height: 50px;
+        }    
+    }
+    
