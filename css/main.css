@@ -1,3 +1,4 @@
+
 h3 {
   color: white;
   font-family: fuenteqatar;
@@ -34,16 +35,33 @@ h1, h2 {
 
 #texto-paginas {
   font-size: 20px;
-  color: white; }
+  color: white; 
+  margin-left: 65px;}
 
 @media screen and (max-width: 750px) {
   #texto-paginas {
     font-size: 20px;
-    margin-left: 45px;
-    margin-right: 45px; } }
+    margin-left: 85px;
+    margin-right: 85px; } }
 
 .card2 {
-  margin-left: 50px; }
+  margin-left: 50px;
+}
+
+  @media screen and (max-width: 1000px) {
+    .card2 {
+       margin-left: 150px;}
+     }
+     @media screen and (max-width: 850px) {
+      .card2 {
+         margin-left: 200px;}
+       }
+       @media screen and (max-width: 650px) {
+        .card2 {
+           margin-left: 50px;}
+         }
+  
+
   .card2 h5 {
     color: #ff4700;
     text-align: center;
@@ -92,10 +110,17 @@ h1, h2 {
   text-align: center;
   justify-content: center;
   align-items: center; }
-  #caja-centrada #mascotita {
-    height: 200px; }
-  #caja-centrada #mascotita2 {
-    height: 50px; }
+#caja-centrada #mascotita {
+  height: 180px; 
+}
+@media screen and (max-width: 500px) {
+  #mascotita{
+    width: 180px;
+    height: 250px;
+  }
+  }  
+#caja-centrada #mascotita2 {
+  height: 50px; }
 
 .menu {
   font-family: fuenteqatar;
@@ -108,7 +133,7 @@ h1, h2 {
     background-color: #4e0563; }
   .menu .logomenu {
     max-width: 60px;
-    margin-left: -20px;
+    margin-left: 1px;
     padding-top: 30px;
     padding-left: 10px; }
   .menu .logomenu:hover {

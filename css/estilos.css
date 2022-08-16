@@ -144,6 +144,29 @@ video {
 
 /* Estadios en index */
 
+      #model-viewer{
+        width: 850px;
+        height: 450px;
+        margin: 0 auto;
+        min-width: 300px;
+        justify-content: center;
+
+      }
+  
+      @media screen and (max-width: 850px) {
+        #model-viewer{
+          width: 450px;
+          height: 250px;
+        }
+        }
+        
+      @media screen and (max-width: 500px) {
+        #model-viewer{
+          width: 280px;
+          height: 250px;
+        }
+        }  
+
 #foto-estadio {
   width: 100%;
 }
