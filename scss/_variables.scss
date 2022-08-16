@@ -144,8 +144,16 @@ h1, h2{
         #mascotita {
             height: 200px;
             }
+            @media screen and (max-width: 450px) {
+                # #mascotita{
+                    width: 150px;
+                    height: 140px;
+                }
+              }
+            }
         #mascotita2 {
             height: 50px;
+            
         }    
     }
     
